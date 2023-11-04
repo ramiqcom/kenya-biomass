@@ -36,7 +36,7 @@ function Canvas(prop) {
   const { modalRef, modalMessage} = prop;
 
   return (
-    <div style={{ flex: 4 }} className="flexible">
+    <div style={{ flex: 10 }} className="flexible">
 
       <dialog id='map-loading' ref={modalRef}>
         <div className="flexible vertical center1 center2 center3">
