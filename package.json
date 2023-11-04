@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/earthengine": "^0.1.376",
+    "@turf/turf": "^6.5.0",
+    "gridjs": "^6.0.6",
+    "gridjs-react": "^6.0.1",
+    "leaflet": "^1.9.4",
+    "next": "14.0.1",
+    "node-self": "^1.0.2",
+    "pify": "^6.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.1"
+    "react-leaflet": "^4.2.1",
+    "react-select": "^5.7.7"
   },
   "devDependencies": {
     "eslint": "^8",
