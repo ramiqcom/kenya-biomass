@@ -6,7 +6,7 @@ export let SentinelTile;
 export let AgbTile;
 export let Features;
 
-export default async function initMap(id, modal, setCoord){
+export default async function initMap(id, modal, setCoord, setDisabledButton){
 	// Show modal
 	modal.current.show();
 
@@ -36,4 +36,7 @@ export default async function initMap(id, modal, setCoord){
 	
 	// Hide modal
 	modal.current.close();
+
+	// Enable button
+	setDisabledButton(false);
 }

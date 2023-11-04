@@ -4,6 +4,10 @@ export default function Info(){
 			
 			<h2>Documentation</h2>
 
+			<a download href="https://storage.googleapis.com/gee-ramiqcom-bucket/space4good/documentation.pdf">
+				<button>Download full documentation</button>
+			</a>
+
 			<div>
 
 				<div>
